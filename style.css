@@ -54,8 +54,8 @@ body::before {
 
     position: fixed;
 
-    top: 0;
-    right: 0;
+    top: -80px;
+    right: -80px;
 
     width: 500px;
     height: 500px;
