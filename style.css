@@ -92,13 +92,15 @@ a:hover {
 
 .profile img {
 
-    width: 160px;
-
-    height: 160px;
-
+    width: 120px;
+    height: 120px;
     object-fit: cover;
+    border-radius: 50%;
+    display: inline-block;
 
-    border-radius: 4px;
+    
+
+    
 }
 
 
