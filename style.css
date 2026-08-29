@@ -76,6 +76,14 @@ body::before {
 
     z-index: 0;
 }
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 55px 30px;
+
+    position: relative;
+    z-index: 1;
+}
 
 
 /* =========================
