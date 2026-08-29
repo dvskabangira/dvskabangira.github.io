@@ -191,14 +191,22 @@ h3 {
    EDUCATION
 ========================= */
 
-section {
-
-    margin-bottom: 55px;
+.education-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
 }
 
-section > p {
+.university-logo {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
 
-    margin-bottom: 20px;
+.education-item p {
+    margin: 0;
 }
 
 
