@@ -199,8 +199,8 @@ h3 {
 }
 
 .university-logo {
-    width: 65px;
-    height: 65px;
+    width: 30px;
+    height: 30px;
     object-fit: contain;
     flex-shrink: 0;
 }
