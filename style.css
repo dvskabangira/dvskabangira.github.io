@@ -45,24 +45,16 @@ a:hover {
     text-decoration: underline;
 }
 
-/* =========================
-   CENTERED NETWORK BACKGROUND
-========================= */
-
-body {
-    margin: 0;
-
-    background-color: white;
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 55px 30px;
 
     background-image: url("https://dvskabangira.github.io/assets/network.jpg");
-
     background-repeat: no-repeat;
-
     background-position: center top;
-
     background-size: 500px;
 }
-
 /* =========================
    INTRODUCTION
 ========================= */
