@@ -68,7 +68,7 @@ body::before {
     background-image: url("https://dvskabangira.github.io/assets/network.jpg");
 
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top right;
     background-size: contain;
 
     opacity: 0.08;
