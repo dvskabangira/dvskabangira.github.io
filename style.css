@@ -376,46 +376,6 @@ header {
 
 
 /* =========================
-   EDUCATION
-========================= */
-
-.timeline {
-    border-left: 2px solid #ddd;
-    padding-left: 30px;
-}
-
-.timeline-item {
-    margin-bottom: 40px;
-    position: relative;
-}
-
-.timeline-item::before {
-    content: "";
-
-    position: absolute;
-
-    left: -37px;
-    top: 5px;
-
-    width: 12px;
-    height: 12px;
-
-    background: #222;
-
-    border-radius: 50%;
-}
-
-.timeline-date {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.timeline-item p {
-    color: #666;
-}
-
-
-/* =========================
    CONTACT
 ========================= */
 
