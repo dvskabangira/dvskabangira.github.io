@@ -44,11 +44,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-/* =========================
-   CENTERED NETWORK BACKGROUND
-========================= */
-
 body {
     position: relative;
     overflow-x: hidden;
@@ -60,7 +55,7 @@ body::before {
     position: fixed;
 
     top: 0;
-    left: 50%;
+    right: 0;
 
     width: 500px;
     height: 500px;
@@ -74,8 +69,6 @@ body::before {
     opacity: 0.08;
 
     pointer-events: none;
-
-    transform: translateX(-50%);
 
     z-index: 1;
 }
@@ -91,6 +84,7 @@ body::before {
 
     z-index: 2;
 }
+
 /* =========================
    INTRODUCTION
 ========================= */
