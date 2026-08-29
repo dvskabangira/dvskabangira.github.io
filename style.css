@@ -50,32 +50,33 @@ a:hover {
    ABSTRACT NETWORK BACKGROUND
 ========================= */
 
-body {
-    position: relative;
-    overflow-x: hidden;
-}
-
 body::before {
     content: "";
 
     position: fixed;
 
-    top: -80px;
-    right: -80px;
+    top: 0;
+    right: 0;
 
     width: 500px;
     height: 500px;
 
-    background-image: url("assets/network.jpg");
+    background-image: url("https://dvskabangira.github.io/assets/network.jpg");
 
     background-repeat: no-repeat;
+    background-position: top right;
     background-size: contain;
 
-    opacity: 0.30;
+    opacity: 0.15;
 
     pointer-events: none;
 
     z-index: 0;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
 }
 
 .container {
